@@ -7,7 +7,7 @@ Custom C-- Compiler is a compiler written for the Grand Canyon University course
 The most important aspects of a compiler are the abstract syntax tree, symbol table, and Assembly MIPS code generation. Below is more information about how we programmed each of these.
 
 To access screenshots for the Custom C-- Compiler, please visit the link:\
- https://github.com/loganhoots/Portfolio/tree/master/Karate%20Toad%20Tower%20Defense/Screenshots
+ https://github.com/loganhoots/Portfolio/tree/master/Custom%20C--%20Compiler/Screenshots
 
 Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots, Paul Andrews, and Brett Silvey. We do not give permission for anyone to use these files for personal use or academic use.
 
