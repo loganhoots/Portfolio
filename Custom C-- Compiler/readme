@@ -1,0 +1,19 @@
+Project 4:  Optimizer
+            README FILE
+WRITTEN BY: Logan Hoots, Paul Andrews, Brett Silvey
+
+Class: CST-405-TR100A
+Isac Artzi
+Date: 12 December, 2021
+
+
+GITHUB LINK: https://github.com/paul2kandrews/CST-405 
+
+
+How to Run the Parser:
+
+1) Open a terminal.
+2) Navigate to the directory containing all the relevant code (this directory).
+3) Run the following command: "reset; make clean; make parser; make mips"
+
+Upon running the command, Bison will print parser output and Spim will print assembly output.

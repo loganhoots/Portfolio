@@ -1,0 +1,39 @@
+int main() {
+   int x;
+   int y;
+   x = 1;
+   y = 1;
+   write 6 * x + y / 3;
+}
+
+int main1() {
+    write 1 + 2 + 3 + 4;
+}
+
+int main2() {
+   int z;
+   int w;
+   z = 2;
+   w = 2;
+   writeln z + w;
+}
+
+int main3(int a, int b) {
+    b = 1;
+    a = 2;
+    return a;
+}
+
+int main4() {
+    write 1 * 2 + 3 * 4;
+}
+
+int main5() {
+    int e;
+    int f;
+    int g;
+    e = 7 * 7;
+    f = 6 * 6;
+    g = e - f;
+    return e * f + g;
+}
