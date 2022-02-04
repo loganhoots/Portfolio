@@ -2,7 +2,7 @@
 
 Ethereum Blockchain DApps are various Decentralized Applications programmed using Solidity that are made to run on a test Ethereum Blockchain.
 
-These Ethereum Blockcahin DApps were written for the Grand Canyon University course Current Trends in Computer Science Lecture and Lab in collaboration by three developers: Logan Hoots, Lucio Infante, and Karan Sharma. To create each application, we used the tools Visual Studio Code, Truffle Blockchain Environment, and Ganache Test Blockchain. Each DApp is unique to a specific project from within the course and do not necessarily relate to eachother.
+These Ethereum Blockchain DApps were written for the Grand Canyon University course Current Trends in Computer Science Lecture and Lab in collaboration by three developers: Logan Hoots, Lucio Infante, and Karan Sharma. To create each application, we used the tools Visual Studio Code, Truffle Blockchain Environment, and Ganache Test Blockchain. Each DApp is unique to a specific project from within the course and do not necessarily relate to eachother.
 
 Autobot is a DApp designed as to be a private transport company. Autobot is capable of adding cars to its transportation roster, adding users who are capable of ordering cars, displaying all the information related to a rostered car, displaying all the information related to all users and rostered cars, and sending a car to a users location.
 
