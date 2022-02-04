@@ -1,4 +1,4 @@
-# Karate Toad Tower Defense #
+# AI Dungeon Game #
 
 AI Dungeon Game is a dungeon explorer videogame. In this game, you play as an archer where your goal is collect 10 coins before the Goblin catches you as while an eyeball and mushroom monster get in your way. Upon collecting 10 coins, you unlock the skeleton boss fight who you must defeat to win.
 
