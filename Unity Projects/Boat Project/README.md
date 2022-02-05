@@ -7,8 +7,8 @@ Boat Project is my first Unity Game. The purpose of this game was to familiarize
 To access the scripts for Boat Project, please visit the link:\
  https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Boat%20Project/CST320_Proj/Assets/Scripts \
 To access screenshots for Boat Project, please visit the link:\
- https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Apple%20Picker%20Prototype/Screenshots
-
+ https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Boat%20Project/Screenshots
+ 
 Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots, Paul Andrews, Brett Silvey, and Jonothan Lopez. We do not give permission for anyone to use these files for personal use or academic use.
 
 If you would like to check out my projects, you can check out my website linked here:\
