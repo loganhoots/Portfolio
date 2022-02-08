@@ -9,7 +9,7 @@ To access the scripts for Parkour Game, please visit the link:\
 To access screenshots for Parkour Game, please visit the link:\
  https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Boat%20Project/Screenshots
  
-Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots, Paul Andrews, Brett Silvey, and Jonothan Lopez. We do not give permission for anyone to use these files for personal use or academic use.
+Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots. I do not give permission for anyone to use these files for personal use or academic use.
 
 If you would like to check out my projects, you can check out my website linked here:\
  www.loganhoots.com
