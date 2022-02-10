@@ -7,7 +7,7 @@ Parkour Game is a Unity Game made to test out the Terrain objects that exist ins
 To access the scripts for Parkour Game, please visit the link:\
  https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Parkour%20Game/Basic%20Level/Assets/Scripts \
 To access screenshots for Parkour Game, please visit the link:\
- https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Boat%20Project/Screenshots
+ https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Parkour%20Game/Screenshots
  
 Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots. I do not give permission for anyone to use these files for personal use or academic use.
 
