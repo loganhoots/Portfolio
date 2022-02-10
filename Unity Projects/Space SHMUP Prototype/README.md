@@ -7,7 +7,7 @@ Space SHMUP Prototype is a Unity Game made to test out different window perspect
 To access the scripts for Space SHMUP Prototype, please visit the link:\
  https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Space%20SHMUP%20Prototype/Assets/__Scripts \
 To access screenshots for Space SHMUP Prototype, please visit the link:\
- https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Parkour%20Game/Screenshots
+ https://github.com/loganhoots/Portfolio/tree/master/Unity%20Projects/Space%20SHMUP%20Prototype/Screenshots
  
 Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots. I do not give permission for anyone to use these files for personal use or academic use.
 
