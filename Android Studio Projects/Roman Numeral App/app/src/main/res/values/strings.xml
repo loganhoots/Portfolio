@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Activity_1_Roman_Numeral_Converter</string>
+    <string name="ConvertToRoman">Convert To Roman</string>
+    <string name="NumberHint">Enter a number</string>
+    <string name="EnterARoman">Enter a Roman Numeral</string>
+    <string name="ConvertToNumber">Convert to Number</string>
+</resources>
