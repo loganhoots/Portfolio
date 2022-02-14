@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PeopleList</string>
+    <string name="Add">Add</string>
+    <string name="EnterName">Enter Name</string>
+</resources>
