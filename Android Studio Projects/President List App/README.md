@@ -2,7 +2,7 @@
 
 These Android Studio Projects were programmed for the Grand Canyon University course Mobile Game Development Leacture and Lab by Logan Hoots. To create each app, I used the tool Android Studio. Each app is unique to a specific project from within the course and does not necessarily relate to another app.
 
-The President List App is an Android App that stores a list of users.
+The President List App is an Android App that stores a list of US presidents.
 
 To access screenshots for President List, please visit the link:\
  https://github.com/loganhoots/Portfolio/tree/master/Android%20Studio%20Projects/President%20List%20App/Screenshots
