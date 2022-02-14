@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SQLLite Demo</string>
+    <string name="blank" />
+    <string name="Name">Name</string>
+    <string name="age">Age</string>
+    <string name="switch_text">Active Customer</string>
+    <string name="btn_wiewAll_text">View All</string>
+    <string name="btn_add_text">Add</string>
+    <string name="btn_reset_text">Reset</string>
+</resources>
