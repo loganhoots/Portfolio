@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Activity_1_Shape_Calculator</string>
+    <string name="ShapeCalculator">Shape Calculator</string>
+    <string name="ins_1">1. Enter Dimensions</string>
+    <string name="width">Width</string>
+    <string name="hint_width">Enter the width</string>
+    <string name="height">Height</string>
+    <string name="hint_height">Enter the height</string>
+    <string name="ins_2">2. Choose Shape Type</string>
+    <string name="rectangle">Rectangle</string>
+    <string name="triangle">Triangle</string>
+    <string name="rhombus">Rhombus</string>
+    <string name="btn_calculate">Calculate</string>
+    <string name="area">Area</string>
+    <string name="results">Results</string>
+    <string name="perimeter">Perimeter</string>
+</resources>
