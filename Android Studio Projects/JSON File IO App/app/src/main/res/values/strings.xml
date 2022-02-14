@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JSONFileIO</string>
+    <string name="btn_load">Load</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_add_car">Add Car</string>
+    <string name="btn_clear_list">Clear List</string>
+    <string name="btn_four_cars">Add 4 Cars</string>
+    <string name="blank" />
+</resources>
