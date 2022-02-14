@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LHoots_Rock_Paper_Scissors</string>
+    <string name="HumanChoice">Human Choice:</string>
+    <string name="ComputerChoice">Computer Choice:</string>
+    <string name="score">Score:</string>
+    <string name="PlayerScore">Player Score: 0</string>
+    <string name="ComputerScore">Computer Score: 0</string>
+    <string name="BtnRock">Rock</string>
+    <string name="BtnPaper">Paper</string>
+    <string name="BtnScissors">Scissors</string>
+    <string name="BtnReset">Reset</string>
+    <string name="output" />
+</resources>

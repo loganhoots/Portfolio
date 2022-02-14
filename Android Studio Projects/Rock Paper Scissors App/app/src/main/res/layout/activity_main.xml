@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_player_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/HumanChoice"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_Human_Choice"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_player_choice"
+        app:layout_constraintStart_toStartOf="@+id/tv_player_choice"
+        app:layout_constraintTop_toBottomOf="@+id/tv_player_choice"
+        app:srcCompat="@drawable/ro" />
+
+    <TextView
+        android:id="@+id/tv_computer_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="@string/ComputerChoice"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_Computer_Choice"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@+id/tv_computer_choice"
+        app:layout_constraintStart_toStartOf="@+id/tv_computer_choice"
+        app:layout_constraintTop_toBottomOf="@+id/tv_computer_choice"
+        app:srcCompat="@drawable/pa" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:text="@string/score"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_Player_Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PlayerScore"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_score" />
+
+    <TextView
+        android:id="@+id/tv_Computer_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ComputerScore"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Player_Score" />
+
+    <Button
+        android:id="@+id/btn_rock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:text="@string/BtnRock"
+        app:layout_constraintEnd_toStartOf="@+id/btn_paper"
+        app:layout_constraintTop_toTopOf="@+id/btn_paper" />
+
+    <Button
+        android:id="@+id/btn_paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/BtnPaper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Computer_score" />
+
+    <Button
+        android:id="@+id/btn_scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:text="@string/BtnScissors"
+        app:layout_constraintStart_toEndOf="@+id/btn_paper"
+        app:layout_constraintTop_toTopOf="@+id/btn_paper" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/BtnReset"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_paper" />
+
+    <TextView
+        android:id="@+id/tv_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/output"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/btn_reset"
+        app:layout_constraintStart_toStartOf="@+id/btn_reset"
+        app:layout_constraintTop_toBottomOf="@+id/btn_reset" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
