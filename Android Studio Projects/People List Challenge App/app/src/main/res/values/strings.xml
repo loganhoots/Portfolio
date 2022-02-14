@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PresidentList</string>
+    <string name="AddOne">Add One</string>
+    <string name="ID">ID:</string>
+    <string name="Name_colon">Name:</string>
+    <string name="Date_colon">Date:</string>
+    <string name="ImageURL_colon">URL:</string>
+    <string name="Zero">0</string>
+    <string name="Name">Name</string>
+    <string name="Phone">Phone</string>
+    <string name="ImageURL">URL</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ok">Ok</string>
+    <string name="NewContact">New Contact</string>
+    <string name="Number_colon">Phone:</string>
+    <string name="address_colon">Address:</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_email">E-mail</string>
+    <string name="Email_colon">E-mail:</string>
+    <string name="blank" />
+    <string name="contact_info">Contact Info</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="call">Call</string>
+    <string name="text">Text</string>
+    <string name="map">Map</string>
+    <string name="web">Web</string>
+</resources>
