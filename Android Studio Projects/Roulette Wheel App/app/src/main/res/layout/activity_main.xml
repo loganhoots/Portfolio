@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_roulette_wheel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/rouletteWheel"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_wheel"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_roulette_wheel"
+        app:srcCompat="@drawable/wheel_1" />
+
+    <ImageView
+        android:id="@+id/iv_ball"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_wheel"
+        app:layout_constraintEnd_toEndOf="@+id/iv_wheel"
+        app:layout_constraintStart_toStartOf="@+id/iv_wheel"
+        app:layout_constraintTop_toTopOf="@+id/iv_wheel"
+        app:srcCompat="@drawable/ball_1" />
+
+    <Button
+        android:id="@+id/btn_new_game"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newGame"
+        app:layout_constraintBottom_toTopOf="@+id/tv_cash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toEndOf="@+id/iv_wheel"
+        app:layout_constraintTop_toTopOf="@+id/iv_wheel" />
+
+    <TextView
+        android:id="@+id/tv_cash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cash"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_wheel"
+        app:layout_constraintEnd_toEndOf="@+id/btn_new_game"
+        app:layout_constraintStart_toStartOf="@+id/btn_new_game"
+        app:layout_constraintTop_toTopOf="@+id/iv_wheel" />
+
+    <TextView
+        android:id="@+id/tv_money_output"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_bet"
+        app:layout_constraintEnd_toEndOf="@+id/tv_cash"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="@+id/tv_cash"
+        app:layout_constraintTop_toBottomOf="@+id/tv_cash"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tv_bet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/placeBets"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_wheel" />
+
+    <TextView
+        android:id="@+id/tv_red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/red"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bet" />
+
+    <EditText
+        android:id="@+id/et_bet_red"
+        android:layout_width="150dp"
+        android:layout_height="40sp"
+        android:ems="10"
+        android:hint="@string/hintEnterBet"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_red"
+        app:layout_constraintStart_toEndOf="@+id/tv_red"
+        app:layout_constraintTop_toTopOf="@+id/tv_red" />
+
+    <TextView
+        android:id="@+id/tv_1_12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="156dp"
+        android:layout_marginRight="156dp"
+        android:text="@string/oneTwelve"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bet" />
+
+    <EditText
+        android:id="@+id/et_bet_1_12"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/hintEnterBet"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_1_12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_1_12"
+        app:layout_constraintTop_toTopOf="@+id/tv_1_12" />
+
+    <TextView
+        android:id="@+id/tv_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_red" />
+
+    <EditText
+        android:id="@+id/et_bet_black"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/hintEnterBet"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_black"
+        app:layout_constraintStart_toEndOf="@+id/tv_black"
+        app:layout_constraintTop_toTopOf="@+id/tv_black" />
+
+    <TextView
+        android:id="@+id/tv_13_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:text="@string/twelveTwentyFour"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_1_12" />
+
+    <EditText
+        android:id="@+id/et_bet_13_24"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/hintEnterBet"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_13_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_13_24"
+        app:layout_constraintTop_toTopOf="@+id/tv_13_24" />
+
+    <TextView
+        android:id="@+id/tv_odd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/odd"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_black" />
+
+    <EditText
+        android:id="@+id/et_bet_odd"
+        android:layout_width="147dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/hintEnterBet"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_odd"
+        app:layout_constraintStart_toEndOf="@+id/tv_odd"
+        app:layout_constraintTop_toTopOf="@+id/tv_odd" />
+
+    <TextView
+        android:id="@+id/tv_25_36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginRight="144dp"
+        android:text="@string/twentyFiveThirtySix"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_13_24" />
+
+    <EditText
+        android:id="@+id/et_bet_25_36"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/hintEnterBet"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_25_36"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_25_36"
+        app:layout_constraintTop_toTopOf="@+id/tv_25_36" />
+
+    <TextView
+        android:id="@+id/tv_bet_even"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/even"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_odd" />
+
+    <EditText
+        android:id="@+id/et_bet_even"
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/hintEnterBet"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_bet_even"
+        app:layout_constraintStart_toEndOf="@+id/tv_bet_even"
+        app:layout_constraintTop_toTopOf="@+id/tv_bet_even" />
+
+    <TextView
+        android:id="@+id/tv_specific_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/specificNumber"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_bet_even" />
+
+    <EditText
+        android:id="@+id/et_specific_number"
+        android:layout_width="128dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="@string/hintSpecificNumber"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_specific_number"
+        app:layout_constraintStart_toEndOf="@+id/tv_specific_number"
+        app:layout_constraintTop_toTopOf="@+id/tv_specific_number" />
+
+    <EditText
+        android:id="@+id/et_specific_number_bet"
+        android:layout_width="128dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:ems="10"
+        android:hint="@string/hintEnterBet"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/et_specific_number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/et_specific_number"
+        app:layout_constraintTop_toTopOf="@+id/et_specific_number" />
+
+    <Button
+        android:id="@+id/btn_spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/spin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_specific_number" />
+
+    <TextView
+        android:id="@+id/tv_spin_output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_spin" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

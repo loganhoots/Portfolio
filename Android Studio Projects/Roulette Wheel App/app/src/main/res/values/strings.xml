@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LHoots_Roulette_Wheel</string>
+    <string name="rouletteWheel">Roulette Wheel</string>
+    <string name="newGame">New Game</string>
+    <string name="cash">Cash: $1000</string>
+    <string name="placeBets">Place your bets:</string>
+    <string name="red">Red:</string>
+    <string name="oneTwelve">1 – 12:</string>
+    <string name="hintEnterBet">Enter Bet</string>
+    <string name="black">Black:</string>
+    <string name="twelveTwentyFour">13 – 24:</string>
+    <string name="odd">Odd:</string>
+    <string name="twentyFiveThirtySix">25 – 36:</string>
+    <string name="even">Even:</string>
+    <string name="specificNumber">Specific Number:</string>
+    <string name="hintSpecificNumber">Enter Number</string>
+    <string name="spin">Spin</string>
+</resources>
