@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LHoots_Love_Meter</string>
+    <string name="hint_name_1">Enter the first name</string>
+    <string name="tv_name_1">Name 1</string>
+    <string name="tv_name_2">Name 2</string>
+    <string name="hint_name_2">Enter the second name</string>
+    <string name="btn_calculate">Calculate</string>
+</resources>
