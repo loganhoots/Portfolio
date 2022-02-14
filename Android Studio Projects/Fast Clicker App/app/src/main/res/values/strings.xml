@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LHoots_Fast_Clicker</string>
+    <string name="TimeLeft">Time Left: 20</string>
+    <string name="Clicks">Total Clicks: 0</string>
+    <string name="Click">Click</string>
+    <string name="Start">Start</string>
+</resources>
