@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PresidentList</string>
+    <string name="AddOne">Add One</string>
+    <string name="ID">ID:</string>
+    <string name="Name_colon">Name:</string>
+    <string name="Date_colon">Date:</string>
+    <string name="ImageURL_colon">Image URL:</string>
+    <string name="Zero">0</string>
+    <string name="Name">Name</string>
+    <string name="Date">Date</string>
+    <string name="ImageURL">Image URL</string>
+    <string name="Cancel">Cancel</string>
+    <string name="ok">Ok</string>
+</resources>
