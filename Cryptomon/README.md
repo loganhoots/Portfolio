@@ -6,9 +6,11 @@ Cryptomon is a NFT battler videogame. In this game, the user is able to connect 
 Cryptomon is a game developed for the Grand Canyon University course Current Trends in Computer Science Lecture and Lab in collaboration by four developers: Logan Hoots and Collin Stratton. Throughout this course we learned to utilize blockchain technologies in order to create a videogame that directly interfaces with an Ethereum based blockchain.
 
 To access the scripts for Cryptomon, please visit the link:\
- https://github.com/loganhoots/Portfolio/tree/master/Karate%20Toad%20Tower%20Defense/Assets/Scripts \
+ https://github.com/loganhoots/Portfolio/tree/master/Cryptomon/contracts \
+ https://github.com/loganhoots/Portfolio/tree/master/Cryptomon/test \
+ https://github.com/loganhoots/Portfolio/tree/master/Cryptomon/Cryptomon/Assets/Scripts \
 To access screenshots for Cryptomon, please visit the link:\
- https://github.com/loganhoots/Portfolio/tree/master/Karate%20Toad%20Tower%20Defense/Screenshots
+ https://github.com/loganhoots/Portfolio/tree/master/Cryptomon/Screenshots 
 
 Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots and Collin Stratton. We do not give permission for anyone to use these files for personal use or academic use.
 
