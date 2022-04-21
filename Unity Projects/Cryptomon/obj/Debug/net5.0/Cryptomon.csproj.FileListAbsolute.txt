@@ -1,0 +1,5 @@
+/Users/collinstratton/Google Drive/School/GCU/Fall 2021 - Spring 2022/CST-461/CST-461/Cryptomon/obj/Debug/net5.0/Cryptomon.csproj.AssemblyReference.cache
+/Users/collinstratton/Google Drive/School/GCU/Fall 2021 - Spring 2022/CST-461/CST-461/Cryptomon/obj/Debug/net5.0/Cryptomon.GeneratedMSBuildEditorConfig.editorconfig
+/Users/collinstratton/Google Drive/School/GCU/Fall 2021 - Spring 2022/CST-461/CST-461/Cryptomon/obj/Debug/net5.0/Cryptomon.AssemblyInfoInputs.cache
+/Users/collinstratton/Google Drive/School/GCU/Fall 2021 - Spring 2022/CST-461/CST-461/Cryptomon/obj/Debug/net5.0/Cryptomon.AssemblyInfo.cs
+/Users/collinstratton/Google Drive/School/GCU/Fall 2021 - Spring 2022/CST-461/CST-461/Cryptomon/obj/Debug/net5.0/Cryptomon.csproj.CoreCompileInputs.cache
