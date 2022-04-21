@@ -4,7 +4,7 @@ Ethereum Blockchain DApps are various Decentralized Applications programmed usin
 
 These Ethereum Blockchain DApps were written for the Grand Canyon University course Current Trends in Computer Science Lecture and Lab in collaboration by three developers: Logan Hoots, Lucio Infante, and Karan Sharma. To create each application, we used the tools Visual Studio Code, Truffle Blockchain Environment, and Ganache Test Blockchain. Each DApp is unique to a specific project from within the course and do not necessarily relate to eachother.
 
-Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots, Lucio Infante, and Karan Sharma. We do not give permission for anyone to use these files for personal use or academic use.
+Because these files were made for Grand Canyon University, these files can only be used by possible future employers of Logan Hoots. These files are subject to copyright and the ownership belongs to Logan Hoots, Lucio Infante, Karan Sharma, and Collin Stratton. We do not give permission for anyone to use these files for personal use or academic use.
 
 If you would like to check out my projects, you can check out my website linked here:\
  www.loganhoots.com

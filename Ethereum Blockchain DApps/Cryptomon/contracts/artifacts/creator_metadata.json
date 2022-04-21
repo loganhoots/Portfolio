@@ -1,0 +1,302 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "cID_",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "mID_",
+						"type": "uint32"
+					}
+				],
+				"name": "addMove",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "a",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "d",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "h",
+						"type": "uint32"
+					}
+				],
+				"name": "createCryptomon",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "n",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "d",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "m",
+						"type": "uint32"
+					}
+				],
+				"name": "createMove",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"name": "cryptomonList",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "id",
+						"type": "uint32"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "attack",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "defense",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "hp",
+						"type": "uint32"
+					},
+					{
+						"internalType": "address",
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint32",
+								"name": "id",
+								"type": "uint32"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint32",
+								"name": "damage",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "missRate",
+								"type": "uint32"
+							}
+						],
+						"internalType": "struct creator.move",
+						"name": "move1",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "uint32",
+								"name": "id",
+								"type": "uint32"
+							},
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint32",
+								"name": "damage",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "missRate",
+								"type": "uint32"
+							}
+						],
+						"internalType": "struct creator.move",
+						"name": "move2",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCryptomonListLength",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"name": "movesList",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "id",
+						"type": "uint32"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "damage",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "missRate",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "cID_",
+						"type": "uint32"
+					},
+					{
+						"internalType": "address",
+						"name": "newOwner_",
+						"type": "address"
+					}
+				],
+				"name": "updateOwner",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/creator.sol": "creator"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/creator.sol": {
+			"keccak256": "0x22994f62d43228b936db218edfa872f6e5abaee53dffb140374ef8f3a8cf9b66",
+			"license": "Logan Hoots and Collin Stratton Project",
+			"urls": [
+				"bzz-raw://b8662af383d64b63d37a6671b52dfd22adc5282cc41c8b324d253ee93c94881c",
+				"dweb:/ipfs/QmY5cSdY6m3xxX3V5dVpWiNMx7jVzkQMS4Q1LLotsDmqYB"
+			]
+		}
+	},
+	"version": 1
+}
